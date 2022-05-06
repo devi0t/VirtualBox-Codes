@@ -5,5 +5,4 @@ VBoxManage setextradata <span class="token string">"VM Name"</span> <span class=
 VBoxManage setextradata <span class="token string">"VM Name"</span> <span class="token string">"VBoxInternal/Devices/efi/0/Config/DmiSystemVersion"</span> <span class="token string">"1.0"</span>
 VBoxManage setextradata <span class="token string">"VM Name"</span> <span class="token string">"VBoxInternal/Devices/efi/0/Config/DmiBoardProduct"</span> <span class="token string">"Mac-AA95B1DDAB278B95"</span>
 VBoxManage setextradata <span class="token string">"VM Name"</span> <span class="token string">"VBoxInternal/Devices/smc/0/Config/DeviceKey"</span> <span class="token string">"ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"</span>
-VBoxManage setextradata <span class="token string">"VM Name"</span> <span class="token string">"VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC"</span> 1
-
+VBoxManage setextradata <span class="token string">"VM Name"</span> <span class="token string">"VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC"</span> 
