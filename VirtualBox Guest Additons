@@ -1,0 +1,1 @@
+VBoxManage setextradata "VM_FILENAME" VBoxInternal2/EfiGraphicsResolution DESIRED_RESOLUTION
