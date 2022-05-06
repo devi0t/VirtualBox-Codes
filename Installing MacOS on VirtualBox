@@ -1,8 +1,5 @@
-These are the extra install codes needed to run a MacOS as a guest OS through VirtualBox. Open command prompt and change the directory with the first line to the file path from, "C:\Program Files\Oracle\VirtualBox\", to your MacOS VM. Once you are in that directory paste the remaining codes into command prompt. 
-
-
-
 cd <span class="token string">"C:\Program Files\Oracle\VirtualBox\"</span>
+
 VBoxManage<span class="token punctuation">.</span>exe modifyvm <span class="token string">"VM Name"</span> <span class="token operator">--</span>cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff
 VBoxManage setextradata <span class="token string">"VM Name"</span> <span class="token string">"VBoxInternal/Devices/efi/0/Config/DmiSystemProduct"</span> <span class="token string">"iMac19,1"</span>
 VBoxManage setextradata <span class="token string">"VM Name"</span> <span class="token string">"VBoxInternal/Devices/efi/0/Config/DmiSystemVersion"</span> <span class="token string">"1.0"</span>
